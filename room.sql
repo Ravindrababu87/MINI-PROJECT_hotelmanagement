@@ -24,7 +24,6 @@ GO
 EXEC usp_InsertData @roomNo='07', @rType='Suite', @rFloor='01', @capacity = '2'
 EXEC usp_InsertData @roomNo='11', @fName='Master', @rFloor='02', @capacity = '3'
 
-
 GO
 CREATE PROC usp_getData
 AS
